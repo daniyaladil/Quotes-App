@@ -15,7 +15,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final AudioPlayer _player = AudioPlayer();
 
-  String quote = "";
+  String   quote = "";
   String author = "";
   bool _isFavorite = false;
 
